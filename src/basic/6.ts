@@ -1,4 +1,4 @@
-const mango = {
+export const mango: User = {
   name: "Mango",
   age: 30,
   email: "john@example.com",
@@ -8,7 +8,7 @@ const mango = {
   },
 };
 
-const poly = {
+export const poly: User = {
   name: "Mango",
   age: 30,
   email: "john@example.com",
