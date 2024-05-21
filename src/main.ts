@@ -5,6 +5,7 @@ import { showMessage, calc, customError } from "./basic/4";
 import { isWeekend } from "./basic/5";
 import { DayOfWeek } from "./basic/5";
 import { poly, mango } from "./basic/6";
+import { page1, page2 } from "./basic/7";
 
 console.log(callback(10));
 person.push(20);
@@ -16,3 +17,5 @@ console.log(calc(10, 10));
 console.log(isWeekend(DayOfWeek.Sunday));
 console.log(poly);
 console.log(mango);
+console.log(page1);
+console.log(page2);
