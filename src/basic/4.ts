@@ -1,11 +1,11 @@
-function showMessage(message: string) {
+function showMessage(message: string): void {
   console.log(message);
 }
 
-function calc(num1: number, num2: number) {
+function calc(num1: number, num2: number): number {
   return num1 + num2;
 }
 
-function customError(error: string) {
-  throw new Error(error);
+function customError(): string {
+  throw new Error("Error");
 }
