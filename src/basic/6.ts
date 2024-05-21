@@ -13,3 +13,13 @@ const poly = {
   age: 30,
   email: "john@example.com",
 };
+
+interface User {
+  name: string;
+  age: number;
+  email: string;
+  address?: {
+    city?: string;
+    country?: string;
+  };
+}
