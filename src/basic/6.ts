@@ -1,3 +1,13 @@
+interface User {
+  name: string;
+  age: number;
+  email: string;
+  address?: {
+    city?: string;
+    country?: string;
+  };
+}
+
 export const mango: User = {
   name: "Mango",
   age: 30,
@@ -13,13 +23,3 @@ export const poly: User = {
   age: 30,
   email: "john@example.com",
 };
-
-interface User {
-  name: string;
-  age: number;
-  email: string;
-  address?: {
-    city?: string;
-    country?: string;
-  };
-}
